@@ -1,0 +1,43 @@
+﻿@page "/customerCreate"
+@using LMS.Models;
+@using System.Text;
+@inject HttpClient Http
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+<EditForm Model="customer" OnValidSubmit="CreateCustomer">
+    <InputText  @bind-Value="@customer.Name"></InputText>
+    <InputText @bind-Value="@customer.Code"></InputText>
+    <button type="submit">Save</button>
+</EditForm>
+
+@code {
+    private Customer customer = new Customer();
+
+    private async void CreateCustomer()
+    {
+        var user = new
+        {
+            UserName = "johndoe",
+            Password = "Password1!",
+            RememberMe = true,
+            Email = "johndoe@example.com",
+        };
+
+        var json = System.Text.Json.JsonSerializer.Serialize(user);
+        var postContent = new StringContent(json, Encoding.UTF8, "application/json");
+        var response = await Http.PostAsync("http://localhost:7003/api/auth/login", postContent);
+        //var cookies = response.Headers.GetValues("Set-Cookie").ToList();
+        await localStorage.SetItemAsync<string>("name", "sakibalhasan");
+        OnGet();
+
+
+    }
+    public async void OnGet()
+    {
+        var cookieContent = await localStorage.GetItemAsync<string>("name");
+        //if (HttpContext.Request.Cookies.ContainsKey("CookieName"))
+        //{
+        //    var cookieValue = HttpContext.Request.Cookies["CookieName"];
+            // Do something with the cookie value
+        //}
+    }
+}

@@ -1,0 +1,15 @@
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\bin\Debug\net6.0\LMS.DbContext.deps.json
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\bin\Debug\net6.0\LMS.DbContext.dll
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\bin\Debug\net6.0\LMS.DbContext.pdb
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\bin\Debug\net6.0\LMS.Models.dll
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\bin\Debug\net6.0\LMS.Models.pdb
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.csproj.AssemblyReference.cache
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.GeneratedMSBuildEditorConfig.editorconfig
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.AssemblyInfoInputs.cache
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.AssemblyInfo.cs
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.csproj.CoreCompileInputs.cache
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.csproj.CopyComplete
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.dll
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\refint\LMS.DbContext.dll
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\LMS.DbContext.pdb
+F:\Rakib\Personal Project\Interview Project\Api\LMSApi\LMS.DbContext\obj\Debug\net6.0\ref\LMS.DbContext.dll

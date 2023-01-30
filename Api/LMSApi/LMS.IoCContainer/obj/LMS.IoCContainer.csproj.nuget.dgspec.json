@@ -1,0 +1,434 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.IoCContainer\\LMS.IoCContainer.csproj": {}
+  },
+  "projects": {
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj",
+        "projectName": "Base",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\LMS.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\LMS.BLL.csproj",
+        "projectName": "LMS.BLL",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\LMS.BLL.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj"
+              },
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\LMS.Repository.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\LMS.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\LMS.DbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\LMS.DbContext.csproj",
+        "projectName": "LMS.DbContext",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\LMS.DbContext.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.IoCContainer\\LMS.IoCContainer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.IoCContainer\\LMS.IoCContainer.csproj",
+        "projectName": "LMS.IoCContainer",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.IoCContainer\\LMS.IoCContainer.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.IoCContainer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\LMS.BLL.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.BLL\\LMS.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj",
+        "projectName": "LMS.Models",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\LMS.Models.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\LMS.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\LMS.Repository.csproj",
+        "projectName": "LMS.Repository",
+        "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\LMS.Repository.csproj",
+        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
+        "outputPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\Base\\Base.csproj"
+              },
+              "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\LMS.DbContext.csproj": {
+                "projectPath": "F:\\Rakib\\Personal Project\\Prac Project\\Api\\LMSApi\\LMS.DbContext\\LMS.DbContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

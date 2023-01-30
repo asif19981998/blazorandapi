@@ -1,0 +1,21 @@
+﻿@page "/counter"
+@using LMS.Models;
+@inject HttpClient Http
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private async void IncrementCount()
+    {
+        var response = await Http.GetAsync("http://localhost:5052/api/customer");
+        List<Customer> result = response.Content.ReadAsAsync<List<Customer>>().Result;
+        currentCount++;
+    }
+}
