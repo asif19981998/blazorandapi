@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using LMSApi.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -96,17 +97,26 @@ namespace LMSApi.Controllers
         }
         // GET api/<AuthController>/5
         [HttpGet("GetCookie")]
-        public string Get(int id)
+        public List<Customer> Get(int id)
         {
-            Response.Cookies.Append("name", "rakib", new CookieOptions
-            {
-                HttpOnly = true
-            });
-            return "value";
+            //Response.Cookies.Append("name", "rakib", new CookieOptions
+            //{
+            //    HttpOnly = true
+            //});
+
+            List<Customer> customers = new List<Customer> 
+            { 
+                new Customer() {Id=1,Name="Sakib",Code="123258"},
+                new Customer() {Id=1,Name="Sakib",Code="123258"},
+                new Customer() {Id=1,Name="Sakib",Code="123258"}
+
+            };
+
+            return customers;
         }
 
         // POST api/<AuthController>
-        [HttpPost]
+        [HttpGet]
         public void Post([FromBody] string value)
         {
         }

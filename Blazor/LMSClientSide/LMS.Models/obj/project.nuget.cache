@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wNfwktu5MELEUI0J6tjnTKLKUFh5lsnrvrqQEskypsnCq/z9SpGNxbtivJHjBDy0MJxLqdVQzdZ4h3WcyFteVw==",
+  "dgSpecHash": "b39wLbOFOnCQ6noyQsPIeS2xE4ZowxvDzVHfb9I6gkaStSLa49KvkLJEFAW00nTZboO5zg6v30z0G5MzmWr17Q==",
   "success": true,
-  "projectFilePath": "F:\\Rakib\\Personal Project\\Interview Project\\Blazor\\LMSClientSide\\LMS.Models\\LMS.Models.csproj",
+  "projectFilePath": "E:\\C Sharp Practise Projects\\BlazorandApi\\blazorandapi\\Blazor\\LMSClientSide\\LMS.Models\\LMS.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

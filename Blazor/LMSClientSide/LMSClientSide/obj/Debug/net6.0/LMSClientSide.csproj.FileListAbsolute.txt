@@ -37,3 +37,37 @@ F:\Rakib\Personal Project\Interview Project\Blazor\LMSClientSide\LMSClientSide\o
 F:\Rakib\Personal Project\Interview Project\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMS.Models.dll
 F:\Rakib\Personal Project\Interview Project\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMS.Models.pdb
 F:\Rakib\Personal Project\Interview Project\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\Blazored.LocalStorage.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\appsettings.Development.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\appsettings.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.staticwebassets.runtime.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.exe
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.deps.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.runtimeconfig.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMSClientSide.pdb
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\Blazored.LocalStorage.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMS.Models.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\bin\Debug\net6.0\LMS.Models.pdb
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.csproj.AssemblyReference.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.GeneratedMSBuildEditorConfig.editorconfig
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.AssemblyInfoInputs.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.AssemblyInfo.cs
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.csproj.CoreCompileInputs.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.MvcApplicationPartsAssemblyInfo.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.RazorAssemblyInfo.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.RazorAssemblyInfo.cs
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\staticwebassets.build.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\staticwebassets.development.json
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\scopedcss\bundle\LMSClientSide.styles.css
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\scopedcss\projectbundle\LMSClientSide.bundle.scp.css
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.csproj.CopyComplete
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\refint\LMSClientSide.dll
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.pdb
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\LMSClientSide.genruntimeconfig.cache
+E:\C Sharp Practise Projects\BlazorandApi\blazorandapi\Blazor\LMSClientSide\LMSClientSide\obj\Debug\net6.0\ref\LMSClientSide.dll

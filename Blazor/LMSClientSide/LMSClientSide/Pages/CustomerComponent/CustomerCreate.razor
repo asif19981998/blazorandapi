@@ -8,10 +8,16 @@
     <InputText @bind-Value="@customer.Code"></InputText>
     <button type="submit">Save</button>
 </EditForm>
-
+<div>
+    @foreach (var customer in customers)
+    {
+        <p> @customer.Name</p>
+         <p> @customer.Code</p>
+    }
+</div>
 @code {
     private Customer customer = new Customer();
-
+    private List<Customer> customers = new();
     private async void CreateCustomer()
     {
         var user = new
@@ -29,7 +35,9 @@
         await localStorage.SetItemAsync<string>("name", "sakibalhasan");
         OnGet();
 
-
+        var getResponse = await Http.GetAsync("http://localhost:7003/api/auth/GetCookie");
+        customers = await getResponse.Content.ReadAsAsync<List<Customer>>();
+        StateHasChanged();
     }
     public async void OnGet()
     {
