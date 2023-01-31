@@ -80,18 +80,15 @@ namespace LMSApi.Controllers
             //    authProperties);
             //var cookieOptions = new CookieOptions();
             //cookieOptions.IsEssential = true;
-            //var cookieOptions = new CookieOptions
-            //{
-            //    Expires = DateTime.Now.AddDays(7),
-            //    HttpOnly = true,
-            //    SameSite = SameSiteMode.Strict,
-            //    Secure = true
-            //};
-
-            Response.Cookies.Append("name", "rakib", new CookieOptions
+            var cookieOptions = new CookieOptions
             {
-                HttpOnly = true
-            });
+                Expires = DateTime.Now.AddDays(7),
+                HttpOnly = true,
+                SameSite = SameSiteMode.Strict,
+                Secure = true
+            };
+
+            Response.Cookies.Append("jwt", "rakib", cookieOptions);
             //Response.Cookies.Append("Session", "MySessionValue", cookieOptions);
             return Ok(new { message = "Login successful" });
         }
