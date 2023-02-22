@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LMS.DbContext.Migrations
 {
     [DbContext(typeof(LMSDbContext))]
-    [Migration("20230129125114_add microsoft identity")]
-    partial class addmicrosoftidentity
+    [Migration("20230222150841_add cutomer table and customer type again again djkfjg")]
+    partial class addcutomertableandcustomertypeagainagaindjkfjg
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -127,7 +127,7 @@ namespace LMS.DbContext.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("LMSApi.Models.Customer", b =>
+            modelBuilder.Entity("LMS.Models.Models.CustomerType", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -144,6 +144,32 @@ namespace LMS.DbContext.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.ToTable("CustomerTypes");
+                });
+
+            modelBuilder.Entity("LMSApi.Models.Customer", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("CustomerTypeId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerTypeId");
 
                     b.ToTable("Customers");
                 });
@@ -252,6 +278,17 @@ namespace LMS.DbContext.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("LMSApi.Models.Customer", b =>
+                {
+                    b.HasOne("LMS.Models.Models.CustomerType", "CustomerType")
+                        .WithMany()
+                        .HasForeignKey("CustomerTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("CustomerType");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
